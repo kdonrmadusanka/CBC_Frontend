@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Products from './components/Products/Products'
+import LoginPage from './pages/LoginPage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <LoginPage />
     </>
   )
 }
